@@ -1,0 +1,172 @@
+body {	
+	padding:auto;
+	margin:auto;
+    color:#000000; 
+    background:#383838 url('images/fond.jpg') repeat-x; 
+	font-size: 11px;  
+	font-family: Verdana; 
+	text-align:center;
+}
+
+a{
+	color:#000000;
+	text-decoration: none;
+}
+
+input, select, textarea{
+	font-family:verdana;
+	font-size:10px
+}
+#nom{
+	color:#FFFFFF;
+	font-size:23px;
+	padding-left:68px;
+	padding-top:161px;
+}
+
+img{
+	border: 0px;
+}
+
+.m{
+	width: 473px;
+}
+table, td {
+	vertical-align:top;
+	font-size: 11px
+}
+
+#nav{
+	float:left;
+	margin-left: 27px; 
+	margin-top: 50px; 
+	width: 469px; 
+	height: 18px; 
+	text-align: center
+}
+
+table td {
+	vertical-align:top;
+	padding: 0; 
+	border-width: 0; 
+	font-family: Verdana;
+	font-size: 11px
+}
+
+
+#englobe{
+	padding:auto;
+	margin:auto;
+	width:523px;
+	text-align:justify;
+	background:url(images/milieu.jpg) repeat-y; 
+}
+
+#contenu{
+	background:url(images/milieu.jpg) repeat-y; 
+		float: left;
+
+
+	width:523px; 
+}
+
+#content{
+		padding-left:25px;	
+	padding-right:25px;	}
+#header { 
+	background:url(images/header.jpg) no-repeat; 
+	width:523px; 
+	height:271px; 
+	margin:auto; 
+	float: left;
+}
+#menu { 
+	background:url(images/menu.jpg) no-repeat; 
+	width:523px; 
+	height:12px; 
+	margin:auto; 
+	float: left;
+}
+
+
+
+#footer2{ 
+	background:url(images/footer2.jpg); 
+	width:523px; 
+	height:27px; 
+	margin:auto;
+	float: left;
+	text-align: center;
+}
+#footer1{ 
+	background:url(images/footer1.jpg); 
+	width:523px; 
+	height:122px; 
+	float: left;
+}#footert{ 
+padding: 47px 25px 0px 25px;
+	margin:0px;
+	
+	text-align: center;
+}
+
+#md1{
+	float:left;
+	width:237px;
+}
+#md2{
+	float:left;
+	width:236px;
+}
+#content2{
+	float:left;
+	width:473px;
+}
+#spacer{
+	font-size:1px;
+	font-color:#FFFFFF;
+	width:100%;
+}
+
+.item {border: 1px solid #242424;}
+.itemHead {padding: 3px; background: #242424; color: #FFFFFF;}
+.itemInfo {text-align: right; padding: 3px; background-color: transparent}
+.itemTitle a {font-size: 98%; font-weight: bold; font-variant: small-caps; color: #FFFFFF; background-color: transparent;}
+.itemPoster {font-size: 85%; font-style:italic;}
+.itemPostDate {font-size: 85%; font-style:italic;}
+.itemStats {font-size: 85%; font-style:italic;}
+.itemBody {padding-left: 5px;background-color: transparent}
+.itemText {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;background-color: transparent; text-align: justify;}
+.itemText:first-letter {font-size: 155%; font-weight: bold;}
+.itemFoot {text-align: right; padding: 3px; background-color: transparent}
+.itemAdminLink {font-size: 85%;}
+.itemPermaLink {font-size: 85%;}
+
+th {background:#242424; color:#FFFFFF; padding : 2px; vertical-align : middle; font-family: Verdana, Arial, Helvetica, sans-serif;}
+
+.outer {border: 1px solid #242424;}
+.head {background-color: transparent; padding: 5px; font-weight: bold;}
+.even {background-color: transparent; padding: 5px;}
+.odd {background-color: transparent; padding: 5px;}
+.foot {background-color: transparent; padding: 5px; font-weight: bold;}
+
+tr.even td {background-color: transparent; padding: 5px;}
+tr.odd td {background-color: transparent; padding: 5px;}
+div.errorMsg { background-color: #FFCCCC; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.confirmMsg { background-color: #DDFFDF; color: #136C99; text-align: center; border-top: 1px solid #DDDDFF; border-left: 1px solid #DDDDFF; border-right: 1px solid #AAAAAA; border-bottom: 1px solid #AAAAAA; font-weight: bold; padding: 10px;}
+div.resultMsg { background-color : #CCCCCC; color: #333333; text-align: center; border-top: 1px solid silver; border-left: 1px solid silver; font-weight: bold; border-right: 1px solid #666666; border-bottom: 1px solid #666666; padding: 10px;}
+div.xoopsCode { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+div.xoopsQuote { background: #FFFFFF; border: 1px inset #000080; font-family: "Courier New",Courier,monospace; padding: 0px 6px 6px 6px;}
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #000000; font-weight:bold; border: 0px solid silver; background-color: TRANSPARENT; margin: 2px; padding: 2px;}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {margin-left: 2px; margin-top: 10px; color: #000000; font-weight:bold; font-size: 10px;}
+.comUserRank {margin: 2px;}
+.comUserRankText {font-size: 10px;font-weight:bold;}
+.comUserRankImg {border: 0px none;}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; }
+.comDateCaption {font-weight: bold; font-style: normal;}
